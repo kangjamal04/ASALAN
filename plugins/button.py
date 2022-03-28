@@ -11,30 +11,30 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
-                InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
+                InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")
             ],
             [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
+                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv")
             ],
             [
-                InlineKeyboardButton(text="• TIKTOK MIMIN •", url=f"http://www.tiktok.com/@babakusala"),
-            ],
+                InlineKeyboardButton(text="• TIKTOK MIMIN •", url=f"http://www.tiktok.com/@babakusala")
+            ]
         ]
         return buttons
     if not FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=client.invitelink2),
+                InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=client.invitelink2)
             ],
             [
                 InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
-                InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
-            ],
-[
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
+                InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")
             ],
             [
-                InlineKeyboardButton(text="• TIKTOK MIMIN •", url=f"http://www.tiktok.com/@babakusala"),
+                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv")
+            ],
+            [
+                InlineKeyboardButton(text="• TIKTOK MIMIN •", url=f"http://www.tiktok.com/@babakusala")
             ],
         ]
         return buttons
@@ -47,7 +47,7 @@ def start_button(client):
                 InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
             ],
-[
+            [
                 InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
             ],
             [
@@ -64,14 +64,16 @@ def start_button(client):
                 InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
                 InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=client.invitelink2),
             ],
-            [InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")],
-        ],
             [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
+                InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")
             ],
             [
-                InlineKeyboardButton(text="• TIKTOK MIMIN •", url=f"http://www.tiktok.com/@babakusala"),
+                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv")
+            ],
+            [
+                InlineKeyboardButton(text="• TIKTOK MIMIN •", url=f"http://www.tiktok.com/@babakusala")
             ]
+        ]
         return buttons
 
 
