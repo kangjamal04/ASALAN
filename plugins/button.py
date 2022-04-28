@@ -14,10 +14,10 @@ def start_button(client):
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")
             ],
             [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv")
+                InlineKeyboardButton(text="TWITTER MIMIN", url=f"https://twitter.com/omehot_tv")
             ],
             [
-                InlineKeyboardButton(text="• TIKTOK MIMIN •", url=f"http://www.tiktok.com/@babakusala")
+                InlineKeyboardButton(text="VIP MURAH", url=f"http:t.me/VIP4646")
             ]
         ]
         return buttons
@@ -31,10 +31,10 @@ def start_button(client):
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")
             ],
             [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv")
+                InlineKeyboardButton(text="TWITTER MIMIN", url=f"https://twitter.com/omehot_tv")
             ],
             [
-                InlineKeyboardButton(text="• TIKTOK MIMIN •", url=f"http://www.tiktok.com/@babakusala")
+                InlineKeyboardButton(text="VIP MURAH", url=f"http:t.me/VIP4646")
             ],
         ]
         return buttons
@@ -44,14 +44,14 @@ def start_button(client):
                 InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
             ],
             [
-                InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
-                InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
+                InlineKeyboardButton(text="TWITTER MIMIN", callback_data="about"),
+                InlineKeyboardButton(text="VIP MURAH", url=f"http:t.me/VIP4646"),
             ],
             [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
+                InlineKeyboardButton(text="TWITTER MIMIN", url=f"https://twitter.com/omehot_tv"),
             ],
             [
-                InlineKeyboardButton(text="• TIKTOK MIMIN •", url=f"http://www.tiktok.com/@babakusala"),
+                InlineKeyboardButton(text="VIP MURAH", url=f"http:t.me/VIP4646"),
             ],
         ]
         return buttons
@@ -68,10 +68,10 @@ def start_button(client):
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")
             ],
             [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv")
+                InlineKeyboardButton(text="TWITTER MIMIN", url=f"https://twitter.com/omehot_tv")
             ],
             [
-                InlineKeyboardButton(text="• TIKTOK MIMIN •", url=f"http://www.tiktok.com/@babakusala")
+                InlineKeyboardButton(text="VIP MURAH", url=f"http:t.me/VIP4646")
             ]
         ]
         return buttons
@@ -87,7 +87,7 @@ def fsub_button(client, message):
                 InlineKeyboardButton(text="• FOLLOW JUGA TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
             ],
             [
-                InlineKeyboardButton(text="• FOLLOW JUGA TIKTOK MIMIN •", url=f"http://www.tiktok.com/@babakusala"),
+                InlineKeyboardButton(text="VIP MURAH", url=f"http:t.me/VIP4646"),
             ],
         ]
         try:
@@ -111,7 +111,7 @@ def fsub_button(client, message):
                 InlineKeyboardButton(text="• FOLLOW JUGA TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
             ],
             [
-                InlineKeyboardButton(text="• FOLLOW JUGA TIKTOK MIMIN •", url=f"http://www.tiktok.com/@babakusala"),
+                InlineKeyboardButton(text="VIP MURAH", url=f"http:t.me/VIP4646"),
             ],
         ]
         try:
@@ -136,7 +136,7 @@ def fsub_button(client, message):
                 InlineKeyboardButton(text="• FOLLOW JUGA TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
             ],
             [
-                InlineKeyboardButton(text="• FOLLOW JUGA TIKTOK MIMIN •", url=f"http://www.tiktok.com/@babakusala"),
+                InlineKeyboardButton(text="VIP MURAH", url=f"http:t.me/VIP4646"),
             ],
         ]
         try:
